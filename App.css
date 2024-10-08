@@ -1,0 +1,86 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body {
+    background: url("http://superdevresources.com/wp-content/uploads/2014/02/pattern-background.png");
+    font-family: "Bree Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .heading
+  {
+    text-align: center;
+    color: #f71aa2;
+    padding-bottom: 10px;
+  
+  }
+  .app
+  {
+    background: linear-gradient(83deg,#f71aa2 0%, #6800ff 80%);
+    width: 95%;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.Question-section
+{
+position: relative;
+width: 100%;
+}
+.Question-count
+{
+    color:blue;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.Question-count span{
+    font-size: 15px;
+    color:red;
+}
+.Question-text
+{
+    color: white;
+    font-size: 25px;
+  font-weight: bold;
+
+}
+.Answer-section
+{
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  justify-content: space-between;
+}
+button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(83deg,#f71aa2 0%, #6800ff 80%);
+    border-radius: 15px;
+    display: flex;
+    padding:10px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #234668;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #1b295c;
+  }
+  .score-section{
+   display: flex;
+  align-items: center;
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+
+}
